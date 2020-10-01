@@ -9,7 +9,7 @@ int main()
  alpha = digit = spcl = i = 0;
  
  printf("enter the string : ");
- gets(str);
+ fgets(str, len(str));
 
  while(str[i]!='\0')
  {
