@@ -10,9 +10,8 @@ int main()
 }
 void swap(int a, int b)
 {
- int tmp;
- tmp = a;
- a = b;
- b = tmp;
+ a=a+b;
+ b=a-b;
+ a=a-b;
  printf(" \nThe values after swap m = %d\n and n = %d", a, b);
 }
